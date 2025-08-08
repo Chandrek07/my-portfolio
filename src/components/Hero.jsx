@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ArrowRight, Github, Linkedin, Mail, Play } from "lucide-react";
-import "Z:/My_Portfolio/my-portfolio/src/components/hero.css";
+import "./hero.css";
 
 function Hero() {
   const [isVisible, setIsVisible] = useState(false);
